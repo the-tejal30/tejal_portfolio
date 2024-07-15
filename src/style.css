@@ -398,6 +398,10 @@ button:focus {
   color: #700c86 !important;
 }
 
+.img-fluid {
+  min-width: 70%;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
