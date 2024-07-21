@@ -38,7 +38,7 @@ function Projects() {
               imgPath={KBC}
               isBlog={false}
               title="Kaun Banega Crorepati"
-              description="Developed a modern Tic-Tac-Toe game with dynamic music, unique sound effects, GIF animations for player moves and victory celebrations, responsive design, undo/redo functionality, customizable settings, thoroughly tested, documented, and deployed for an engaging user-friendly experience."
+              description="The Kaun Banega Crorepati app provides an engaging quiz game experience with lifelines and timed questions, mirroring the real show. It features a user-friendly, responsive design for all devices and includes sound effects and animations to enhance the gameplay, making users feel as if they are part of the show."
               ghLink="https://github.com/the-tejal30/Kaun_Banega_Crorepati"
               demoLink="https://kaun-banega-crorepati-tejal.vercel.app/"
             />

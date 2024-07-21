@@ -51,7 +51,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:tejalwani2000@gmail.com"
+                href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=tejalwani2000@gmail.com"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

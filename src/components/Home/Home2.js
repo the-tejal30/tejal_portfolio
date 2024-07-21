@@ -31,7 +31,7 @@ function Home2() {
               <br />
               My field of interest includes building new <i><b className="purple">Web Technologies and Products</b></i> and exploring frontend frameworks like{" "}
               <i>
-                <b className="purple">React.js and Next.js.</b>
+                <b className="purple">React.js.</b>
               </i> 🌐
               <br />
               <br />
@@ -83,7 +83,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:tejalwani2000@gmail.com"                  
+                  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=tejalwani2000@gmail.com"                  
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
