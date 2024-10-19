@@ -9,7 +9,8 @@ import {
 } from "react-icons/di";
 import {
   SiFirebase,
-  SiNextdotjs
+  SiRedux,
+  SiTailwindcss
 } from "react-icons/si";
 import { PiFileSqlBold } from "react-icons/pi";
 
@@ -30,7 +31,10 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiRedux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
