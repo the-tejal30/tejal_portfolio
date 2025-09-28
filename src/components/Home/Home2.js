@@ -17,25 +17,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Experienced frontend developer with a strong foundation in{" "}
+              Frontend Engineer with <b className="purple">2+ years of professional experience</b> building web applications and digital solutions. Currently working at{" "}
               <i>
-                <b className="purple">HTML, CSS, and JavaScript,</b>
+                <b className="purple">FinalLayer</b>
               </i>{" "}
-              and advanced proficiency in{" "}
+              focusing on modern React applications with Next.js and TypeScript. 🚀
+              <br />
+              <br />
+              I work with technologies like{" "}
               <i>
-                <b className="purple">React.js.</b>
+                <b className="purple">React.js, Next.js, TypeScript,</b>
               </i>{" "}
-              Passionate about creating responsive and interactive web interfaces. Skilled in{" "}
-              <b className="purple">UI/UX design principles</b> and ensuring seamless user experiences. 🚀
-              <br />
-              <br />
-              My field of interest includes building new <i><b className="purple">Web Technologies and Products</b></i> and exploring frontend frameworks like{" "}
+              and{" "}
               <i>
-                <b className="purple">React.js.</b>
-              </i> 🌐
+                <b className="purple">TailwindCSS.</b>
+              </i>{" "}
+              I enjoy creating clean, responsive interfaces that work well across different devices. 💡
               <br />
               <br />
-              Familiar with backend technologies such as <b className="purple">Node.js</b> for building server-side logic and APIs. ⚙️
+              My skills include building{" "}
+              <i>
+                <b className="purple">React applications,</b>
+              </i>{" "}
+              working with{" "}
+              <i>
+                <b className="purple">Redux and Context API,</b>
+              </i>{" "}
+              and making websites that look good on all devices with smooth animations. 🌐
+              <br />
+              <br />
+              I'm familiar with backend technologies like{" "}
+              <b className="purple">Firebase, Node.js, MongoDB,</b> and have experience with{" "}
+              <b className="purple">Mapbox, Framer Motion,</b> and chart libraries for showing data visually. ⚙️
             </p>
           </Col>
           <Col md={3} className="myAvtar">

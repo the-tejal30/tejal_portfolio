@@ -11,31 +11,31 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Tejal Wani </span>
             from <span className="purple">Maharashtra, India.</span>
             <br />
-            I am currently employed as a MERN Stack Developer at Mobius (Gaian Solutions), Hyderabad.
+            I am currently working as a Frontend Engineer at FinalLayer, Hyderabad.
             <br />
-            I'm a web developer excited to explore new opportunities and passionate about creating user-friendly websites.
+            I'm a frontend developer who loves building responsive web applications and learning new technologies.
             <br />
-            Let's collaborate and build something great together!
+            Always excited to take on new challenges and create meaningful digital experiences!
             <br />
             <br />
-            In addition to coding, here are a few professional activities I engage in:
+            Apart from coding, here are some things I enjoy doing:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Staying Updated with Industry Trends
+              <ImPointRight /> Exploring New Frontend Frameworks
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Technical Documentation
+              <ImPointRight /> Contributing to Open Source Projects
             </li>
             <li className="about-activity">
-              <ImPointRight /> Learning New Technologies
+              <ImPointRight /> Reading Tech Blogs and Articles
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+            "The best code is no code at all, but when you must write code, make it simple and readable."
           </p>
-          <footer className="blockquote-footer"> Martin Fowler</footer>
+          <footer className="blockquote-footer">Anonymous</footer>
         </blockquote>
       </Card.Body>
     </Card>

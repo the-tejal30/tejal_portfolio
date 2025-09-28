@@ -3,17 +3,15 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiGit
 } from "react-icons/di";
 import {
   SiFirebase,
   SiRedux,
-  SiTailwindcss
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript
 } from "react-icons/si";
-import { PiFileSqlBold } from "react-icons/pi";
-
 
 function Techstack() {
   return (
@@ -22,13 +20,13 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
@@ -41,9 +39,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <PiFileSqlBold />
       </Col>
     </Row>
   );
