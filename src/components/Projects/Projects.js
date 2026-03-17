@@ -64,7 +64,7 @@ function Projects() {
             Selected <strong className="purple">Projects</strong>
           </h1>
           <p className="project-subheading">
-            Real-world products I have designed, built, and shipped.
+            Real world products I have designed, built, and shipped.
           </p>
         </div>
 
