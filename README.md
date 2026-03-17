@@ -1,62 +1,73 @@
-# Tejal Wani's Portfolio
+# Tejal Wani Portfolio
 
-Welcome to my portfolio! This project showcases my skills and projects as a web developer. I have included a range of projects that demonstrate my expertise in frontend development, particularly with React.js.
+A personal portfolio built with React.js showcasing my work, experience, and skills as a Frontend Engineer.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Projects](#projects)
-  - [HearHere](#hearhere)
-  - [Kaun Banega Crorepati](#kaun-banega-crorepati)
-  - [Connect Four](#connect-four)
-  - [Task Management Application](#task-management-application)
-  - [Calculator Application](#calculator-application)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Contact](#contact)
+## About
 
-## Introduction
-
-I am Tejal Wani, a web developer with a strong background in HTML, CSS, JavaScript, React.js, and Node.js. My focus is on creating responsive web designs and ensuring seamless user experiences. Below are some of the projects that I have worked on.
+I am Tejal Wani, a Frontend Engineer with 2+ years of experience building production grade web applications. I specialize in React.js, Next.js, and TypeScript with a focus on performance, SEO, and clean UI.
 
 ## Projects
 
-### HearHere
-A dynamic web application built from scratch using React.js, similar to BookMyShow. Users can view nearby events based on their current location, book event tickets, add events to favorites, and view booking history. The project includes a responsive design with carousels implemented using Framer Motion.
+### SalesPilot CRM Application
+A multi tenant Sales CRM built from scratch with role based access for admins and employees, JWT authentication, email OTP verification, lead scoring pipeline with WhatsApp and email outreach, analytics dashboard, and real time toast notifications.
+
+### SVS Gold Trading Platform
+A gold and silver trading platform with live rate graphs powered by real time price feeds, a secure admin login panel, automatic Google Sheets sync via App Script, and 9 APIs integrated across the platform.
 
 ### Kaun Banega Crorepati
-An interactive game developed using React and Vite. This project features engaging gameplay, sound effects, and a responsive design to enhance the user experience.
+A browser based quiz game that mirrors the real KBC show with lifelines, timed questions, sound effects, and celebratory animations. Fully responsive across all devices.
 
-### Connect Four
-A classic two-player strategy board game developed using React. The game includes intuitive controls, core game logic, and an AI opponent with adjustable difficulty levels.
+## Tech Stack
 
-### Task Management Application
-A user-friendly task management application that allows users to easily add, edit, and delete tasks. It features an attractive color scheme and task prioritization.
+**Languages and Frameworks:** JavaScript, TypeScript, React.js, Next.js, Astro
 
-### Calculator Application
-A responsive calculator application for performing basic arithmetic operations. Developed with an intuitive user interface using HTML, CSS, and JavaScript.
+**UI and Styling:** HTML5, CSS3, Tailwind CSS, SCSS, Bootstrap, Ant Design, Material UI
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- React.js
-- Node.js
-- Framer Motion
-- Vite
+**State and APIs:** Redux, Context API, RESTful APIs, GraphQL
 
-## Setup Instructions
+**Tools and DevOps:** Git, Vite, Webpack, Docker, Vercel, Render, Firebase, AWS, Jira, ClickUp
 
-To run the portfolio project locally, follow these steps:
+## Features
 
-1. Clone the repository:
-  git clone https://github.com/the-tejal30/tejal_portfolio
+- Animated macOS style terminal intro on homepage
+- Agency style project showcase with numbered watermark
+- Interactive tech memory card game
+- Work experience timeline
+- Responsive across all screen sizes
+- Resume download page
 
-2. Navigate to the project directory:
-cd portfolio
+## Setup
 
-3. Install the dependencies:
+1. Clone the repository
+
+```
+git clone https://github.com/the-tejal30/tejal_portfolio
+```
+
+2. Navigate to the project directory
+
+```
+cd tejal_portfolio
+```
+
+3. Install dependencies
+
+```
 npm install
+```
 
-4. Start the development server:
-npm run start
-Open your browser and visit http://localhost:3000 to view the portfolio.
+4. Start the development server
+
+```
+npm start
+```
+
+Open your browser and visit http://localhost:3000
+
+## Contact
+
+Email: tejalwani2000@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/tejalwani30/
+
+GitHub: https://github.com/the-tejal30
