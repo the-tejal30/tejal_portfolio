@@ -5,6 +5,7 @@ import ProjectCard from "./ProjectCards";
 import TechGame from "./TechGame";
 import Particle from "../Particle";
 import SalesPilot from "../../Assets/Projects/SalesPilot.webp";
+import NomadMigration from "../../Assets/Projects/NomadMigration.webp";
 
 const projects = [
   {
@@ -20,6 +21,21 @@ const projects = [
     ghLink: "https://github.com/the-tejal30/CRM",
     demoLink: "https://salespilot-crm.vercel.app/",
     techStack: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "OpenAI API", "JWT", "Vercel"],
+    featured: true,
+  },
+  {
+    index: "02",
+    title: "Nomad Credit: WordPress to Next.js Migration",
+    points: [
+      "Migrated 8 high priority study abroad landing pages from WordPress (Elementor) to Next.js, preserving content, metadata, and SEO structure.",
+      "Cut median mobile Largest Contentful Paint from 2.3 s to 1.2 s, bringing every page under the 2.5 s good threshold (up from 4 of 7).",
+      "Fixed layout shift on all pages (3 pages previously failed CLS) and raised accessibility from 90 to 95+ on every page.",
+      "Biggest wins on the slowest pages: Profile Evaluation LCP 15.9 s to 1.7 s, University Predictor and Study in UK 3.9 s to 1.2 s.",
+      "Integrated Google Tag Manager server side tracking and PostHog A/B testing for marketing experiments.",
+    ],
+    imgPath: NomadMigration,
+    demoLink: "https://www.nomadcredit.com/lp/study-in-usa",
+    techStack: ["Next.js", "React.js", "SSR", "SEO", "Google Tag Manager", "PostHog", "Lighthouse"],
     featured: true,
   },
 ];
