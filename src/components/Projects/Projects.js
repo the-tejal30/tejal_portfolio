@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCards";
 import TechGame from "./TechGame";
 import Particle from "../Particle";
 import SalesPilot from "../../Assets/Projects/SalesPilot.webp";
-import KBC from "../../Assets/Projects/KBC.webp";
 
 const projects = [
   {
@@ -22,20 +21,6 @@ const projects = [
     demoLink: "https://salespilot-crm.vercel.app/",
     techStack: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "OpenAI API", "JWT", "Vercel"],
     featured: true,
-  },
-  {
-    index: "02",
-    title: "Kaun Banega Crorepati",
-    points: [
-      "Browser based quiz game that mirrors the real KBC show experience.",
-      "Features lifelines, timed questions, sound effects, and celebratory animations.",
-      "Fully responsive across all devices with a genuine on show feel.",
-    ],
-    imgPath: KBC,
-    ghLink: "https://github.com/the-tejal30/Kaun_Banega_Crorepati",
-    demoLink: "https://kaun-banega-crorepati-tejal.vercel.app/",
-    techStack: ["React.js", "CSS", "JavaScript"],
-    featured: false,
   },
 ];
 

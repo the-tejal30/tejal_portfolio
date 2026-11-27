@@ -11,9 +11,6 @@ I am Tejal Wani, a Frontend Engineer with 3+ years of experience building produc
 ### SalesPilot CRM Application
 A multi tenant Sales CRM built from scratch with role based access for admins and employees, JWT authentication, email OTP verification, lead scoring pipeline with WhatsApp and email outreach, analytics dashboard, and real time toast notifications.
 
-### Kaun Banega Crorepati
-A browser based quiz game that mirrors the real KBC show with lifelines, timed questions, sound effects, and celebratory animations. Fully responsive across all devices.
-
 ## Tech Stack
 
 **Languages and Frameworks:** JavaScript, TypeScript, React.js, Next.js, Astro
