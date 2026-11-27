@@ -22,7 +22,7 @@ A browser based quiz game that mirrors the real KBC show with lifelines, timed q
 
 **State and APIs:** Redux, Context API, RESTful APIs, GraphQL
 
-**Tools and DevOps:** Git, Vite, Webpack, Docker, Vercel, Render, Firebase, AWS, Jira, ClickUp
+**Tools and DevOps:** Git, Vite, Vercel, Render, Firebase, Azure, Jira, ClickUp, Google Tag Manager, PostHog
 
 ## Features
 

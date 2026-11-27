@@ -4,10 +4,9 @@ import {
   SiTypescript, SiNextdotjs, SiAstro,
   SiTailwindcss, SiSass, SiBootstrap, SiAntdesign, SiMui,
   SiRedux, SiGraphql,
-  SiJest, SiVite, SiDocker, SiVercel, SiWebpack, SiJira,
+  SiVite, SiVercel, SiJira, SiMicrosoftazure, SiGoogletagmanager, SiPosthog,
   SiVisualstudiocode, SiPostman, SiFirebase, SiRender, SiClickup,
 } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
 
 const skillCategories = [
   {
@@ -50,15 +49,14 @@ const skillCategories = [
       { icon: <SiVisualstudiocode />,   name: "VS Code" },
       { icon: <SiPostman />,            name: "Postman" },
       { icon: <SiVite />,               name: "Vite" },
-      { icon: <SiWebpack />,            name: "Webpack" },
-      { icon: <SiDocker />,             name: "Docker" },
       { icon: <SiVercel />,             name: "Vercel" },
       { icon: <SiRender />,             name: "Render" },
       { icon: <SiFirebase />,           name: "Firebase" },
-      { icon: <FaAws />,                name: "AWS" },
+      { icon: <SiMicrosoftazure />,     name: "Azure" },
       { icon: <SiJira />,               name: "Jira" },
       { icon: <SiClickup />,            name: "ClickUp" },
-      { icon: <SiJest />,               name: "Jest" },
+      { icon: <SiGoogletagmanager />,   name: "Google Tag Manager" },
+      { icon: <SiPosthog />,            name: "PostHog" },
     ],
   },
 ];
