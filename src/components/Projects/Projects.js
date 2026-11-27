@@ -5,7 +5,6 @@ import ProjectCard from "./ProjectCards";
 import TechGame from "./TechGame";
 import Particle from "../Particle";
 import SalesPilot from "../../Assets/Projects/SalesPilot.png";
-import SVSGold from "../../Assets/Projects/SVSGold.png";
 import KBC from "../../Assets/Projects/KBC.png";
 
 const projects = [
@@ -26,20 +25,6 @@ const projects = [
   },
   {
     index: "02",
-    title: "SVS Gold Trading Platform",
-    points: [
-      "Gold and silver trading platform with live rate graphs powered by real time price feeds.",
-      "Secure admin login panel handling rate updates, user data exports, and mobile data exports.",
-      "Automatic Google Sheets sync via App Script with email alerts on every form submission.",
-      "Integrated 9 APIs covering real time pricing, form handling, and admin operations.",
-    ],
-    imgPath: SVSGold,
-    demoLink: "https://svsgold.com/",
-    techStack: ["React.js", "Tailwind CSS", "Google App Script", "REST APIs"],
-    featured: true,
-  },
-  {
-    index: "03",
     title: "Kaun Banega Crorepati",
     points: [
       "Browser based quiz game that mirrors the real KBC show experience.",

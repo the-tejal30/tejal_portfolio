@@ -4,15 +4,12 @@ A personal portfolio built with React.js showcasing my work, experience, and ski
 
 ## About
 
-I am Tejal Wani, a Frontend Engineer with 2+ years of experience building production grade web applications. I specialize in React.js, Next.js, and TypeScript with a focus on performance, SEO, and clean UI.
+I am Tejal Wani, a Frontend Engineer with 3+ years of experience building production grade web applications. I specialize in React.js, Next.js, and TypeScript with a focus on performance, SEO, and clean UI.
 
 ## Projects
 
 ### SalesPilot CRM Application
 A multi tenant Sales CRM built from scratch with role based access for admins and employees, JWT authentication, email OTP verification, lead scoring pipeline with WhatsApp and email outreach, analytics dashboard, and real time toast notifications.
-
-### SVS Gold Trading Platform
-A gold and silver trading platform with live rate graphs powered by real time price feeds, a secure admin login panel, automatic Google Sheets sync via App Script, and 9 APIs integrated across the platform.
 
 ### Kaun Banega Crorepati
 A browser based quiz game that mirrors the real KBC show with lifelines, timed questions, sound effects, and celebratory animations. Fully responsive across all devices.

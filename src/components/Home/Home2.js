@@ -8,8 +8,8 @@ import { BsSpeedometer2, BsWindowStack } from "react-icons/bs";
 import TerminalIntro from "./TerminalIntro";
 
 const stats = [
-  { number: "2+", label: "Years Experience" },
-  { number: "3",  label: "Companies" },
+  { number: "3+", label: "Years Experience" },
+  { number: "4",  label: "Companies" },
   { number: "10+", label: "Apps Shipped" },
   { number: "50+", label: "Components Built" },
 ];

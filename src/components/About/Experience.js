@@ -3,12 +3,29 @@ import { Container } from "react-bootstrap";
 
 const experiences = [
   {
+    company: "Nomad Credit",
+    role: "AI Frontend Engineer",
+    period: "Jun 2026 to Present",
+    year: "2026",
+    location: "Mumbai",
+    current: true,
+    color: "#d946ef",
+    points: [
+      "Migrating WordPress pages to Next.js, recreating responsive layouts while preserving content structure, metadata, and SEO requirements",
+      "Implementing A/B testing integrations using PostHog to evaluate page variations and track user interactions",
+      "Implementing Google Tag Manager with server side tracking to improve event collection, measurement, and analytics reliability",
+      "Identifying and resolving technical SEO issues, including metadata, canonical URLs, redirects, indexing, and page structure",
+      "Optimizing page performance, reusable components, and responsive interfaces to improve loading speed and website experience",
+      "Collaborating on analytics events, conversion tracking, and frontend changes to support marketing experiments and performance measurement",
+    ],
+  },
+  {
     company: "FinalLayer",
     role: "Frontend Engineer",
-    period: "Jan 2025 to Present",
+    period: "Jan 2025 to Mar 2026",
     year: "2025",
     location: "Hyderabad",
-    current: true,
+    current: false,
     color: "#c770f0",
     points: [
       "Built responsive, pixel perfect interfaces for multiple AI tools and worked on building AI agents, ensuring smooth usability across all devices",
