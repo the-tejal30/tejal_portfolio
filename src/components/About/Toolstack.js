@@ -4,21 +4,23 @@ import {
   SiPostman,
   SiVercel,
   SiClickup,
-  SiDocker,
   SiRender,
   SiFirebase,
+  SiMicrosoftazure,
+  SiGoogletagmanager,
+  SiPosthog,
 } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
 
 const tools = [
   { icon: <SiVisualstudiocode />, name: "VS Code" },
   { icon: <SiPostman />, name: "Postman" },
-  { icon: <SiDocker />, name: "Docker" },
   { icon: <SiVercel />, name: "Vercel" },
   { icon: <SiRender />, name: "Render" },
   { icon: <SiFirebase />, name: "Firebase" },
-  { icon: <FaAws />, name: "AWS" },
+  { icon: <SiMicrosoftazure />, name: "Azure" },
   { icon: <SiClickup />, name: "ClickUp" },
+  { icon: <SiGoogletagmanager />, name: "Google Tag Manager" },
+  { icon: <SiPosthog />, name: "PostHog" },
 ];
 
 function Toolstack() {

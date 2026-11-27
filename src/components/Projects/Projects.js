@@ -4,8 +4,8 @@ import { BsController } from "react-icons/bs";
 import ProjectCard from "./ProjectCards";
 import TechGame from "./TechGame";
 import Particle from "../Particle";
-import SalesPilot from "../../Assets/Projects/SalesPilot.png";
-import KBC from "../../Assets/Projects/KBC.png";
+import SalesPilot from "../../Assets/Projects/SalesPilot.webp";
+import KBC from "../../Assets/Projects/KBC.webp";
 
 const projects = [
   {

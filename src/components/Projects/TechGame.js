@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import { DiJavascript1, DiReact, DiGit, DiNodejs } from "react-icons/di";
 import {
   SiTypescript, SiNextdotjs, SiTailwindcss, SiRedux,
-  SiGraphql, SiVite, SiDocker, SiFirebase,
+  SiGraphql, SiVite, SiPosthog, SiFirebase,
 } from "react-icons/si";
 
 const TECHS = [
@@ -16,7 +16,7 @@ const TECHS = [
   { techId: "git",        label: "Git",         icon: <DiGit /> },
   { techId: "nodejs",     label: "Node.js",     icon: <DiNodejs /> },
   { techId: "vite",       label: "Vite",        icon: <SiVite /> },
-  { techId: "docker",     label: "Docker",      icon: <SiDocker /> },
+  { techId: "posthog",    label: "PostHog",     icon: <SiPosthog /> },
   { techId: "firebase",   label: "Firebase",    icon: <SiFirebase /> },
 ];
 

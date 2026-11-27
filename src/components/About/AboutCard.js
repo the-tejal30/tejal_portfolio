@@ -12,8 +12,8 @@ function AboutCard() {
             <span className="purple">Maharashtra, India.</span>
             <br />
             I'm a Frontend Engineer with <span className="purple">3+ years</span> of
-            professional experience, currently building AI tools and products at{" "}
-            <span className="purple">FinalLayer, Hyderabad.</span>
+            professional experience, currently working as an AI Frontend Engineer at{" "}
+            <span className="purple">Nomad Credit, Mumbai.</span>
             <br />
             <br />
             I specialize in crafting responsive, high-performance UIs using{" "}

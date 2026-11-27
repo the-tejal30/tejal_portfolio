@@ -7,7 +7,7 @@ const LINES = [
   { type: "out",   text: "Tejal Wani, Frontend Engineer" },
   { type: "spacer" },
   { type: "cmd",   text: "cat role.txt" },
-  { type: "out",   text: "Frontend Engineer at FinalLayer, Hyderabad" },
+  { type: "out",   text: "AI Frontend Engineer at Nomad Credit, Mumbai" },
   { type: "out",   text: "3+ years building production grade web apps" },
   { type: "spacer" },
   { type: "cmd",   text: "ls tech stack/" },
