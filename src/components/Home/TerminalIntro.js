@@ -8,7 +8,7 @@ const LINES = [
   { type: "spacer" },
   { type: "cmd",   text: "cat role.txt" },
   { type: "out",   text: "Frontend Engineer at FinalLayer, Hyderabad" },
-  { type: "out",   text: "2+ years building production grade web apps" },
+  { type: "out",   text: "3+ years building production grade web apps" },
   { type: "spacer" },
   { type: "cmd",   text: "ls tech stack/" },
   { type: "chips", items: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "GraphQL", "Astro", "Node.js"] },

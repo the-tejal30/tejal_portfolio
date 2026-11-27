@@ -11,7 +11,7 @@ function AboutCard() {
             Hi, I'm <span className="purple">Tejal Wani</span> from{" "}
             <span className="purple">Maharashtra, India.</span>
             <br />
-            I'm a Frontend Engineer with <span className="purple">2+ years</span> of
+            I'm a Frontend Engineer with <span className="purple">3+ years</span> of
             professional experience, currently building AI tools and products at{" "}
             <span className="purple">FinalLayer, Hyderabad.</span>
             <br />
