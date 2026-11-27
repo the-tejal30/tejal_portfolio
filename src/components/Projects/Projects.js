@@ -18,7 +18,7 @@ const projects = [
       "Real time toast notifications across the full application.",
     ],
     imgPath: SalesPilot,
-    ghLink: "https://github.com/the-tejal30",
+    ghLink: "https://github.com/the-tejal30/CRM",
     demoLink: "https://salespilot-crm.vercel.app/",
     techStack: ["React.js", "Node.js", "MongoDB", "Tailwind CSS", "OpenAI API", "JWT", "Vercel"],
     featured: true,
