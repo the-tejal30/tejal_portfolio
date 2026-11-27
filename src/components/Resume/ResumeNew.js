@@ -10,6 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -20,8 +21,25 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          {!loaded && (
+            <div className="resume-loader">
+              <div className="resume-loader-spinner" />
+              <p>Loading resume...</p>
+            </div>
+          )}
+          <Document
+            file={pdf}
+            className={loaded ? "d-flex justify-content-center" : "d-flex justify-content-center resume-doc-hidden"}
+            loading={null}
+            onLoadError={() => setLoaded(true)}
+          >
+            <Page
+              pageNumber={1}
+              scale={width > 786 ? 1.7 : 0.6}
+              loading={null}
+              onRenderSuccess={() => setLoaded(true)}
+              onRenderError={() => setLoaded(true)}
+            />
           </Document>
         </Row>
 
